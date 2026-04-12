@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>EcoWood POS App</title>
+<!-- 將此樣式放入 <head> -->
+<style>
+  .photo-box {
+    color: #333;           /* 稍微深灰比純黑更耐看 */
+    font-family: sans-serif;
+    line-height: 2;        /* 增加標題與圖片間的呼吸感 */
+  }
+  .display-photo {
+    width: 100%;           /* 手機版自動縮放 */
+    max-width: 1000px;     /* 電腦版最大尺寸 */
+    height: auto;          /* 核心：確保比例永遠正確不變形 */
+    display: block;        /* 移除圖下方多餘間隙 */
+    border-radius: 4px;    /* 選配：微圓角讓照片更有質感 */
+  }
+.functions-container {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  .functions-title {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .function-list {
+    list-style: none; /* 移除預設圓點 */
+    padding-left: 5px;
+    margin: 0;
+  }
+  .function-list li {
+    color: #707070;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    display: flex;
+    align-items: center; /* 讓圖標與文字對齊 */
+    margin-bottom: 4px;
+  }
+  /* 使用 CSS 引入圖標，減少 HTML 重複代碼 */
+  .function-list li::before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 9px;
+    background: url('image/nc-icon2.gif') no-repeat center;
+    margin-right: 8px; /* 文字與圖標的間距 */
+    flex-shrink: 0;   /* 防止圖標被文字擠壓變形 */
+  }
+</style>
+</head>
+
+<body>
+<table width="100%" border="0">
+<!-------------------------------------表頭區------------------------->
+  <tr><td bgColor=#66CCFF>
+      <table cellSpacing=1 cellPadding=1 width="100%" border=0>
+      <tr><td bgcolor="#99CCFF" width="200" rowSpan=2>
+      <img src="image\logo.png" width="90" height="90"><font color="#000000" size="3">&nbsp;&nbsp;Apple store</font></TD>
+      <td bgcolor="#99CCFF" ><font color="#000000" size="3">&nbsp;&nbsp;Welcome to iWardRounds361 </font></TD>
+      <tr><td bgcolor="#99CCFF"><font color="#000000" size="3">&nbsp;&nbsp;EcoWood POS App&nbsp;<br>&nbsp;&nbsp;Jan 15, 2026&nbsp;<br></font></TD></tr>
+      </table>
+  </td></tr>
+  </td></tr>
+<!-------------------------------------目的區------------------------->
+  <tr><td
+      <font color="#000000" size="4">&nbsp;Description:</font><BR>
+      <font color="#707070" size="4">&nbsp;&nbsp;&nbsp;&nbsp;In respond to raising awareness on environment protection, green shopping of goods without packaging is a growing trend. Customers would bring their own container and buy just the amount they need. For example, 50ml of Extra Virgin Olive Oil. This brings different needs of a point-of-sale (POS) system for shop owners. A Retail POS system capable of handling sales of both packaged and bulk package items would help!<br>
+Easy to use is an important aspect we considered. Despite supporting product barcode scanning, Oakafe EcoWood POS offers a quick access menu for bulk package items, so that you don’t need to keep a list of pre-printed barcodes beside the cashier but still be able to find an item quickly. For bulk purchase items, system will give a pop-up window for entering of the purchased weight, as well as a reminder on minimum purchase weight if applicable.<br>
+Your data will be stored locally hence business operations will not be affected by internet (Wi-Fi) connection quality. Furthermore, this app is ad-free, has no in-app purchase and no monthly subscription needed. So that you can focus on business operations without worrying about increase of running cost.<br>
+Oakafe EcoWood POS system fits for small-sized grocery stores, or mini-marts with a single cash register. Have yourself ready a Mac OS computer, a barcode scanner, a receipt printer and a cash drawer to start a business!</font>
+      <hr width="100%">
+  </td></tr>
+<!-------------------------------------功能說明------------------------->
+  <tr>
+  <td class="functions-container">
+    <span class="functions-title">Functions:</span>
+    <ul class="function-list">
+      <li>Define different items, for both packaged goods as well as bulk-packaged goods.</li>
+      <li>Assign different access to Managers and general staffs.</li>
+      <li>Review sales performance with built-in reports.</li>
+      <li>Offer your customers with different payment methods ex. Cash, Credit card(manual) , Shop vouchers.</li>
+      <li>Sell an item by scanning item barcodes, enter a barcode/item number, or simply a click in the quick access menu.</li>
+      <li>Print order summary and payment receipt (need suitable receipt printer.</li>
+      <li>Connect to a Cash Drawer (need suitable cash drawer).</li>
+      <li>Supports two sales data export formats: TXT, JSON.</li>
+    </ul>
+    <hr>
+  </td>
+</tr>
+<!-------------------------------------圖片區------------------------->
+  <tr><td class="photo-box">
+    <strong>HOME</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/home.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+<tr><td class="photo-box">
+    <strong>Item</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu1.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Staff</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu2.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Customer category</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu3.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Permissions</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu4.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Receipt printer (WiFi)</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu5.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>System parameters</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu6.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Archives library</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu7.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Sales detail list</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu8.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Daily income list</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu9.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Top 10 item list</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu10.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Daily cash list</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu11.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Checkout desk</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu12.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+<!-------------------------------------報表區------------------------->
+  <tr><td class="photo-box">
+    <strong>Closing for today</strong><br>
+    <!-- 路徑已修正為正斜線 / -->
+    <img src="image/menu13.png" alt="EcoWood POS App Photo" class="display-photo">
+    <hr>
+  </td></tr>
+</table>
+<!-------------------------------------表尾區------------------------->
+<font size="2">Oakafe POS Team&nbsp;&nbsp;<a href="oakafe@gmail.com">For Support please to oakafe@gmail.com</a></font>
+</body>
+</html>
